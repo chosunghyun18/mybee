@@ -1,4 +1,4 @@
-package prac.mybee.member;
+package prac.mybee.member.service;
 
 import org.springframework.stereotype.Service;
 

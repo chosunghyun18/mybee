@@ -1,4 +1,4 @@
-package prac.mybee.member;
+package prac.mybee.member.model;
 
 public class Member {
     private Long id;

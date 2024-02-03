@@ -1,4 +1,4 @@
-package prac.mybee.member;
+package prac.mybee.member.dto;
 
 import lombok.Getter;
 
