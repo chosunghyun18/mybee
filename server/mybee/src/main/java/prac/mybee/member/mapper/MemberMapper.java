@@ -2,12 +2,11 @@ package prac.mybee.member.mapper;
 
 import java.util.List;
 import java.util.Optional;
-import org.apache.ibatis.annotations.Mapper;
+
 import org.apache.ibatis.annotations.Param;
 import prac.mybee.member.model.Member;
 import prac.mybee.member.model.Searchform;
 
-@Mapper // for myBatis can read mapper
 public interface MemberMapper {
     void save(Member member);
     Optional<Member> findById(Long id);
