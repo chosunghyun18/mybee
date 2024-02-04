@@ -19,7 +19,6 @@ public class MybatisConnectionTest {
         System.out.println(sqlFactory);
     }
 
-    //MyBatis와 Mysql 서버가 제대로 연결되었는지 Test
     @Test
     public void testSession() throws Exception{
         try(SqlSession session = sqlFactory.openSession()){
